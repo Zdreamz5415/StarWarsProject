@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Star Wars</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+        <a class="navbar-brand" href="#"><img src="{{url_for('static', filename='starwars1.jpg')}}" alt="logo.1" height = "75"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href=/ >Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=/jedi>Jedi Order</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=/sith>Sith</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=/lightsabers>Lightsabers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/planets">planets</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="container pt-4">
+        <div class="row">
+            <div class="col-lg">
+                <h3 class="mb-4">Jedi Order</h3>
+                <img src="{{url_for('static', filename='jo.jpg')}}" class="img-fluid mb-4 rounded" alt="imagefour" width="400" height="250">
+                <p>The Jedi Order, also known as the New Jedi Order under Jedi Master Luke Skywalker, was a noble religious order of protectors united in their devotion to the light side of the Force. With a history dating back thousands of years before the rise of the Galactic Empire, the Jedi Knights—noted for their lightsabers and natural ability to harness the powers of the Force—stood as the guardians of peace and justice in the Galactic Republic. The Order was originally established on Ahch-To in the Unknown Regions. In later years, the Jedi Grand Temple on the Core World Coruscant served as the hub of all Jedi activity in the galaxy. The Temple was also a training school for younglings and Padawans, who learned the ways of the Force under the supervision of Jedi Masters, twelve of whom were elected to serve on the Jedi High Council—the Order's highest governing authority. The High Council's staff officers were the Grand Master, who functioned as the leader of the Order and was a title reserved for the wisest Jedi Master, and the Master of the Order, who served as the Council's appointed leader. The Jedi Code governed the Order's way of life; therefore, every Jedi was duty-bound to observe and uphold the Code or else risk banishment from the Order's ranks.</p>
+                <img src="{{url_for('static', filename='jt.jpg')}}" class="img-fluid mb-4 rounded" alt="imagefive" width="400" height="250">
+
+            </div>
+            <div class="col-lg">
+                <p>During the final years of the Republic, the galaxy was beset by political instability and social unrest which, in turn, created a secessionist crisis that ultimately resulted in the formation of the Confederacy of Independent Systems. Lacking the sufficient manpower needed to protect the galaxy, the Jedi became commanders and generals in the newly-formed Grand Army of the Republic. For roughly three years they commanded armies of clone troopers in a conflict known as the Clone Wars, engaging the Confederacy's battle droid forces led by Count Dooku—a former Jedi Master who became a Sith Lord—and the cybernetic warlord General Grievous. Though the Jedi fought to preserve the Republic, the government they served was secretly taken over by Sidious who, as Senator Sheev Palpatine of Naboo, rose to power in the Senate and became the last Supreme Chancellor of the Republic.</p>
+                <img src="{{url_for('static', filename='jl.jpg')}}" class="img-fluid mb-4 rounded" alt="imagefour" width="400" height="250">
+                <p>The Chancellor's machinations culminated in the execution of Order 66, a secret protocol that turned the Jedi's clone soldiers against them, leading to an all but total extermination of the Jedi Order. With the most of the Jedi eliminated, Sidious supplanted a thousand years of democracy with a new government known as the Galactic Empire. In addition, Sidious succeeded in turning Anakin Skywalker—the prophesied Chosen One who was destined to bring balance to the Force by destroying the Sith—to the dark side and renamed him Darth Vader. As a Sith Lord, the former Jedi Knight served the self-proclaimed Galactic Emperor by hunting down the few surviving Jedi, who had gone into hiding across the galaxy. In spite of the Sith's efforts, however, the Jedi continued to endure. Within a generation of the Empire's rise to power, Obi-Wan Kenobi and Yoda—both of whom survived the initial purge of the Order—trained Vader's son, Luke Skywalker, in the Jedi arts. Luke would later redeem his father, causing him to return to the light and fulfill his destiny as the Chosen One, destroying both himself and his Master during the Battle of Endor.</p>
+            </div>
+            <div class="col-lg">
+            <img src="{{url_for('static', filename='jp.png')}}" class="img-fluid mb-4 rounded" alt="imagefour" width="400" height="250">
+            <p>The Empire dissolved into various remnants as a result of their defeat in the Galactic Civil War, allowing the Alliance to Restore the Republic to rise as the New Republic. Under the new era, Luke Skywalker endeavored to rebuild the Order by training a new generation of Jedi. Among Skywalker's students was his nephew Ben Solo, the son of his twin sister, Princess Leia Organa, and the famed smuggler Han Solo. Ben, however, was seduced by the dark side of the Force at the coaxing of Snoke, an enigmatic figure who spearheaded the Imperial-inspired First Order. As a result, Ben adopted the name and persona of Kylo Ren, a First Order warrior and master of the Knights of Ren.</p>
+            <img src="{{url_for('static', filename='jedi1.jpg')}}" class="img-fluid mb-4 rounded" alt="imagefour" width="400" height="250">
+            <p>The new generation was betrayed and destroyed by Ren, who left the Jedi training temple burning by the time Skywalker recovered from the attack. Feeling responsible for Ben's fall and the massacre of his apprentices, he went into exile and disappeared from the galaxy, leaving only traces of his location on a star map. The First Order and the Resistance both sought to acquire the map, but ultimately it was the latter that succeeded due to the actions of the Jakku scavenger Rey. She followed the map to the planet Ahch-To, where the last Jedi had taken refuge in the first Jedi Temple.</p>
+            </div>
+
+        </div>
+        <div class="row py-4 text-muted">
+            <div class="col-md">
+        <p><strong>Fun Facts</strong></p>
+        <p>In the years before the Battle of Yavin, Ahsoka Tano used two white lightsabers as her personal weapons. The lightsabers, which had white blades and curved hilts, replaced the lightsabers she used before leaving the Jedi Order during the Clone Wars, which Tano had abandoned in order to fake her death to the Galactic Empire after the Siege of Mandalore.</p>
+    
+        </div>
+        <div class="col-md col-lg-5 ml-auto">
+            <p><strong>More Fun facts coming soon...</strong></p>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Email adress" aria-label="Email Adress" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+            </div>
+        </div>
+
+</body>
+</html>

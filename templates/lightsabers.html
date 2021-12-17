@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Star Wars</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+        <a class="navbar-brand" href="#"><img src="{{url_for('static', filename='starwars1.jpg')}}" alt="logo.1" height = "75"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href= / >Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=/jedi>Jedi Order</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=/sith>Sith</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=/lightsabers>Lightsabers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=/planets>planets</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="container pt-4">
+        <div class="row">
+            <div class="col-lg">
+                <h3 class="mb-4">Lightsabers</h3>
+                <img src="{{url_for('static', filename='ilum.jpg')}}" class="img-fluid mb-4 rounded" alt="imagefour" width="400" height="250">
+                <p>Lightsaber crystals, also known as kyber crystals, were a variety of crystals, gems, stones, or other objects that were used as the energy source of a lightsaber.
+
+                    At the heart of every lightsaber was a set of crystals that resonated to produce the efficient, powerful blade. While the most common crystals used in the process were from the Adega system, Ilum, and Dantooine in the so-called Crystal Cave, Jedi and Sith used a variety of crystals to produce various colors, effects and unique abilities. Some crystals could even enhance the Force skills of a particular user. Other gems, such as colored crystals or diamonds, were used exclusively for prismatic effects. However, not all lightsaber crystals were actually crystals. Plenty of Jedi or Sith used a different material or substance in place of a crystal, such as physical remains, shards of glass, and even special micro machinery.</p>
+                <img src="{{url_for('static', filename='va.jpg')}}" class="img-fluid mb-4 rounded" alt="imagefive" width="400" height="250">
+
+            </div>
+            <div class="col-lg">
+                <p></p>
+                <img src="{{url_for('static', filename='jfo.jpg')}}" class="img-fluid mb-4 rounded" alt="imagefour" width="400" height="250">
+                <p>Before placing the crystal in the lightsaber, the Jedi or Sith had to imbue it with the Force. To do this, the Force-user was required to meditate on the crystal for many days. Luke Skywalker meditated on his crystal in Ben Kenobi's home with only R2-D2 to keep him company. While the Jedi mostly used natural crystals, the Sith usually used red-hued synthetic crystals. However, Luke Skywalker created his lightsaber using a synthetic crystal, because he had no access to natural crystals on Tatooine. Sith-made synthetic crystals created a slightly more powerful blade when energized by the dark side of the Force. Sith lightsaber blades could occasionally "break" the blade of a Jedi saber. Darth Sidious had Darth Maul use a special furnace to make his own crystals. Maul worked constantly for several days to make the four crystals needed for his double-bladed lightsaber. Their creation required intense concentration, as Darth Maul had to use the Force not only to make them the proper shape and to ensure that the crystals were free from impurities, but also to keep himself alive for the long time it took in the blistering heat of the furnace. Maul was particularly proud of this achievement and believed it to be an example of the Sith's superiority over the Jedi. However, Sidious did not make his subsequent apprentices—Tyranus and Vader—create their crystals in such a manner, instead supplying them himself.</p>
+                <img src="{{url_for('static', filename='kr.jpg')}}" class="img-fluid mb-4 rounded" alt="imagefour" width="400" height="250">
+            </div>
+            <div class="col-lg">
+            <img src="{{url_for('static', filename='fsw.jpg')}}" class="img-fluid mb-4 rounded" alt="imagefour" width="400" height="250">
+            <p>The lightsaber, also referred to as a laser sword by those who were unfamiliar with it, was a weapon usually used by the Jedi, the Sith, and other Force-sensitives. Lightsabers consisted of a plasma blade, powered by a kyber crystal, that was emitted from a usually metal hilt and could be shut off at will. It was a weapon that required skill and training, and was greatly enhanced when used in conjunction with the Force. Though also used by the Sith, the lightsaber was synonymous with the Jedi, with some in the galaxy believing only Jedi could use lightsabers.</p>
+            <img src="{{url_for('static', filename='swfs.jpg')}}" class="img-fluid mb-4 rounded" alt="imagefour" width="400" height="250">
+            <p>Lightsabers were generally used for both offense and defense. A lightsaber could cut through virtually anything, from flesh to blast doors. The only ways to block the incoming attack of a lightsaber was with a weapon made with material that conducted energy, such as an electrostaff, a Z6 riot control baton, some rare metals, or another lightsaber. When used defensively, a Force-sensitive could deflect blaster bolts with a lightsaber, and with skill, could even reflect the shots back toward the shooter or some other target. Experienced Jedi could even employ their lightsabers to absorb Force lightning. Most practitioners used one single-bladed lightsaber, though some used double-bladed lightsabers or even multiple lightsabers at once.
+            Lightsaber combat was divided into seven Forms: Form I, Form II, Form III, Form IV, Form V, Form VI, and Form VII.</p>
+            </div>
+
+            <div class="row py-4 text-muted">
+                <div class="col-md">
+            <p><strong>Fun Facts</strong></p>
+            <p>The biggest appeal of a lightsaber is its ability to cut through any material. However, this far away galaxy from a long time ago is a big one, and within it lies a handful of fibers that cannot be pierced by the sci-fi blade.Most notably, the hide of the Zillo beast is invulnerable to most attacks, including lightsabers.Fortunately for Jedi, the creature is extremely rare and was thought to be extinct until one showed up in an episode of The Clone Wars. The list of these types of materials is short and most of the items are scarce, but it is invaluable information for anyone to have if they wish to face off against a Jedi.</p>
+        
+            </div>
+            <div class="col-md col-lg-5 ml-auto">
+                <p><strong>More Fun facts coming soon...</strong></p>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Email adress" aria-label="Email Adress" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                </div>
+            </div>
+</body>
+</html>
+</body>
+</html>
